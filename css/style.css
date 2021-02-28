@@ -1,0 +1,74 @@
+@font-face{
+    font-family: "CranberryBlues";
+    src: url("../assets/fonts/cranberry_blues/CranberryBlues.ttf");
+}
+h1{
+    font-family: "CranberryBlues";
+    color:red;
+    border: 2px solid blue;
+    background-color: rgb(81, 255, 0);
+}
+
+
+#myCanvas{
+    border: 1px solid black;
+    background-image: url("../assets/image/bleu.jpg");
+
+}
+
+#score{
+
+    font-size: 45px;
+    font-family: "CranberryBlues";
+    padding-left: 10px;
+
+}
+#scoreJeu{
+    font-family: "CranberryBlues";
+    color:White;
+    border: 2px solid black;
+    background-color:rgb(105, 165, 255);
+    font-size: 48px;
+    margin-top: 1px;
+    padding-left: 10px;
+    padding-top: 10px;
+
+}
+
+#meilleurScore{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 45px;
+    font-family: "CranberryBlues";
+    margin-right: 10px;
+    padding-top: 10px;
+
+}
+
+#infosJeu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+
+}
+#meilleurS{
+    padding-left: 10px;
+
+}
+
+#pelouse1{
+    position: absolute;
+    top: 568;
+    left:8;
+}
+#pelouse2{
+    position: absolute;
+    top: 568;
+    left:502;
+}
+#pelouse3{
+    position: absolute;
+    top: 568;
+    left:1002;
+}
